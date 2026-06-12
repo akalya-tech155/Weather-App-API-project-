@@ -4,6 +4,7 @@ function getWeather() {
 
 
 
+
 //IMPROVE JAVASCRIPT CODE
 
 function getWeather() {
@@ -36,3 +37,7 @@ async function getWeather() {
       `;
 
 }}
+
+document.getElementById("weather").innerHTML =
+    "Loading...";
+
